@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Poster</title>
+    <!-- Importing a serif font similar to traditional motivational poster styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Outer Poster Frame */
+        .poster {
+            background-color: #000000;
+            border: 4px solid #000000;
+            outline: 2px solid #555555; /* Inner thin border look */
+            padding: 30px 30px 40px 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        /* Image Frame Container */
+        .image-container {
+            border: 2px solid #ffffff; /* White inner border around image */
+            padding: 4px;              /* Black gap between image and white border */
+            background-color: #000000;
+            margin-bottom: 30px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Main Word (Large Title) */
+        .main-word {
+            font-size: 3.5rem;
+            letter-spacing: 0.3em;
+            color: #ffffff;
+            margin: 0 0 15px 0;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        /* Subtitle Sentence */
+        .sub-sentence {
+            font-size: 1.25rem;
+            color: #ffffff;
+            margin: 0;
+            letter-spacing: 0.05em;
+            font-family: Arial, sans-serif; /* Clean sans-serif font for description */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="poster">
+        <!-- Image Section with Border -->
+        <div class="image-container">
+            <!-- Replace the src with your own image URL or local file -->
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Mountain Peak">
+        </div>
+
+        <!-- Text Section -->
+        <h1 class="main-word">MAJESTY</h1>
+        <p class="sub-sentence">It's not the mountain we conquer, but ourselves.</p>
+    </div>
+
+</body>
+</html>
